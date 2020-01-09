@@ -10,8 +10,8 @@ let appData = {
     savings : false
 };
 
-let a = prompt('Введите обязательную статью расходов в этом месяце');
-let b = prompt('Во сколько обойдется?');
+let a = prompt('Введите обязательную статью расходов в этом месяце', '');
+let b = prompt('Во сколько обойдется?', '');
 
 appData.expenses[0] = a;
 appData.expenses[1] = b;
